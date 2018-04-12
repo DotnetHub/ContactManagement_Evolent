@@ -41,8 +41,8 @@ Location: ~\ContactManagement\Web.config
 Test APP: app.config Setup
 Location: ~\ContactManagement.Tests\App.config
 
-<connectionStrings>
-  <add name="ContactsDBEntities" connectionString="metadata=res://*/Models.Entities.ContactDB.csdl|res://*/Models.Entities.ContactDB.ssdl|res://*/Models.Entities.ContactDB.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB);initial catalog=ContactsDB;user id=xxx;password=xxx;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
-</connectionStrings>
+Databse:
+Database Script is located on ContactManagement\App_Data\Script.sql.
+You can create table by executing script on your database.
 
 ## Thank You
